@@ -243,8 +243,10 @@ section {
 }
 .coolPic {
   border-radius: 10%;
-  height: 40vh;
-  width: 50vh;
+  height: 65vh;
+  width: 75vh;
+  border: 2px solid #23b5d3;
+
   box-shadow: 0 10px 10px rgba(35, 181, 211, 0.5);
 }
 .cotainer {
@@ -275,5 +277,13 @@ footer {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 76.9vh;
+  height: 88vh;
+}
+.title_about {
+  padding-top: 1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+.pg {
+  font-size: 1.3rem;
 }
