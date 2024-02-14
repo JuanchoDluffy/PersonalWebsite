@@ -131,4 +131,92 @@ a:hover {
 .burger-icon span:first-child {
   transform: none;
 }
-/*sections*/
+/* landing */
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+#landing-profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.picture_cont {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  margin: auto 0;
+}
+.picture_cont img {
+  border-radius: 100%;
+  box-shadow: 0 10px 10px rgba(35, 181, 211, 0.5);
+}
+
+.intro_text {
+  align-self: center;
+  text-align: center;
+}
+
+.intro_text p {
+  font-weight: 600;
+}
+
+.intro_text_p1 {
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.intro_text_p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#social_cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+#social_cont img {
+  border-radius: 50%;
+}
+/* ICONS */
+.icon {
+  padding-top: 1rem;
+  cursor: pointer;
+  height: 5rem;
+  border-radius: 100%;
+}
+/* Buttons */
+
+.cv {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #23b5d3;
+  color: #ffffff; /* Choose your preferred text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for the background color */
+}
+
+/* Hover effect */
+.cv:hover {
+  background-color: #070600; /* Change to a slightly different color on hover */
+}
