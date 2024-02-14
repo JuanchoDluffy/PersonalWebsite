@@ -295,3 +295,117 @@ footer {
   font-size: 3rem;
   text-align: center;
 }
+
+/* contact */
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.contact-info-uc {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: #23b5d3 0.1rem solid;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  box-shadow: 0 10px 10px rgba(35, 181, 211, 0.5);
+}
+.connect-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+.email a {
+  font-size: large;
+  color: #070600;
+}
+
+.email a:hover {
+  color: #070600;
+  text-decoration: underline;
+  text-underline-offset: 1.5rem;
+}
+.icon-con {
+  padding-top: 1rem;
+  cursor: pointer;
+  height: 3rem;
+  border-radius: 100%;
+}
+.title_con {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 81.5vh;
+}
+
+/*projects*/
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: #23b5d3 0.1rem solid;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(35, 181, 211, 0.5);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+.section__text__p1 {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: large;
+}
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+.project-title {
+  text-align: center;
+}
