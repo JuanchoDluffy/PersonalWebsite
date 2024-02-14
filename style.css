@@ -287,3 +287,11 @@ footer {
 .pg {
   font-size: 1.3rem;
 }
+
+/* Experience */
+.title_exp {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  font-size: 3rem;
+  text-align: center;
+}
