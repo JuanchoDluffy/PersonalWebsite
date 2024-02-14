@@ -1,9 +1,65 @@
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   #desk-nav {
     display: none;
   }
   #burger {
     display: flex;
     background-color: white;
+    z-index: 1;
+  }
+
+  #landing-profile {
+    display: block;
+    height: 90vh;
+    align-content: center;
+  }
+  .picture_cont {
+    display: flex;
+    height: 40vh;
+    margin: auto 0;
+    z-index: 1;
+  }
+
+  .logo-b {
+    font-size: 3rem;
+  }
+  section {
+    position: relative;
+    height: fit-content;
+    z-index: -1;
+  }
+  body {
+    position: relative;
+    z-index: -1;
+  }
+  section {
+    margin: 0 5%;
+  }
+
+  #About {
+    display: block;
+    height: 60vh;
+  }
+
+  .cool_picture_container {
+    margin: 0;
+    display: flex;
+    height: 30vh;
+    width: 90vw;
+    position: relative;
+  }
+  .coolPic {
+    position: relative;
+    border-radius: 10%;
+    height: 30vh;
+    width: 40vh;
+    border: 2px solid #23b5d3;
+    box-shadow: 0 10px 10px rgba(35, 181, 211, 0.5);
+  }
+  .details_container {
+    display: block;
+  }
+  .about-containers {
+    display: block;
   }
 }
