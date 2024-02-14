@@ -137,7 +137,7 @@ section {
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
-  box-sizing: border-box;
+  display: flex;
   min-height: fit-content;
 }
 
@@ -149,17 +149,17 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 81.5vh;
 }
 
 .picture_cont {
   display: flex;
-  height: 500px;
-  width: 500px;
+  height: 55vh;
   margin: auto 0;
 }
 .picture_cont img {
   border-radius: 100%;
+
   box-shadow: 0 10px 10px rgba(35, 181, 211, 0.5);
 }
 
@@ -216,7 +216,64 @@ section {
   transition: background-color 0.3s ease; /* Smooth transition for the background color */
 }
 
-/* Hover effect */
 .cv:hover {
-  background-color: #070600; /* Change to a slightly different color on hover */
+  background-color: #070600;
+}
+
+/* About page */
+.details_container {
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  height: 40vh;
+}
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.about-containers,
+.details_container {
+  display: flex;
+}
+.cool_picture_container {
+  display: flex;
+  height: 700px;
+  width: 850px;
+}
+.coolPic {
+  border-radius: 10%;
+  height: 40vh;
+  width: 50vh;
+  box-shadow: 0 10px 10px rgba(35, 181, 211, 0.5);
+}
+.cotainer {
+  flex: 1;
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 2px solid #23b5d3;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(35, 181, 211, 0.5);
+}
+
+section div {
+  margin: 10px;
+  justify-content: center;
+  position: relative;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  margin: 0%;
+  width: 100%;
+}
+#About {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 76.9vh;
 }
